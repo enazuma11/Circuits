@@ -1,0 +1,21 @@
+Internal CPU set addresses (Sends <Data/MOVR> to <addr>):
+0-Data to null
+1-Data to ALU A
+2-Data to ALU B
+3-Data to opcode
+4-Data to flag
+5-Data to cache data
+6-Data to cache addr
+7-Data to transfer register (MOVR)
+B-MOVR to Output registry 0
+C-MOVR to Output registry 1
+D-MOVR to Output registry 2
+E-MOVR to Output registry 3
+F-Data to output address
+
+Internal CPU output address (Sends output of <addr> to MOVR):
+0-Null to MOVR
+1-ALU Out to MOVR
+2-ALU Overflow to MOVR
+3-Cache data to MOVR
+4-Cache addr to MOVR
